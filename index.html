@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <title>Summer Sun</title>
+        <meta name="description" content="Encuentra el traje de baño que necesitas para esa gran ocasión">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <link rel="stylesheet" href="CSS\index.css">
+    </head>
+    <body>
+        <header id="header"> <!--logo, iconos, Menu de navegacion del sitio web-->
+
+            <div id="divSocialMedia">
+                <a href=""><img id="logo" src="RECURSOS\logo.png" alt="Logo"></a>
+                <a href="https://es-la.facebook.com/"><img class="social-media"     src="RECURSOS\facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img class="social-media"      src="RECURSOS\instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com/?lang=es"><img class="social-media"    src="RECURSOS\twitter.png" alt="Twitter"></a>
+                <a href="https://www.pinterest.com/"><img class="social-media"      src="RECURSOS\pinterest.png" alt="Pinterest"></a>
+            </div>
+
+            <nav class="navBar" id="navBar">
+
+                <a href="#" class="closebtn" onclick="myFunction()">&times;</a>
+                <ul>
+                    <a class="icon" id="mobileicon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+                    <li><a id="active" href="#">INICIO</a></li>
+                </ul>
+            </nav>
+        </header>
+     
+        <section class="secBuscador"> <!--Buscador de vestidos, palabras claves-->
+            <div>
+                <h1 id="h1Portada">Bienvenidos a Sumer Sun</h1>
+                <h2 id="h2Portada">Encuentra ese traje de verano ideal que tanto deseas.</h2>
+                <form id="inputPortada">
+                    <input type="text" placeholder="Buscar" maxlength="50">
+                    <input type="image" src="RECURSOS\lupa1.png" alt="Buscar">
+                </form>             
+            </div>
+        </section>
+
+
+        <section class="secInfo"> <!--Informacio general de nuestro producto-->
+            <div class="infomarca">
+                <h1 class="h1Info" id="h1secInfo">Un traje</h1>
+                <h1 class="h1Info">Un deseo...</h1>
+                <p>Los trajes de baño que no sabías que necesitabas están al alcance de tu mano. <br>Déjate sorprender por la maestría y la atención al detalle con las que se realizan cada una de las prendas de Summer Sun.</p>
+            </div>
+            
+            <div class="imgInfo">
+                <a href=""><img src="RECURSOS\IMAGENES\traje1.jpg" alt="vestido1"></a>
+                <a href=""><img src="RECURSOS\IMAGENES\traje2.jpg" alt="vestido2"></a>
+                <a href=""><img src="RECURSOS\IMAGENES\traje3.jpg" alt="vestido3"></a>         
+            </div>
+        </section>
+
+
+        <section class="secInfoVestido"> <!--Caracteristicas del negocio en general-->
+            <div>
+                <img src="RECURSOS\cintametrica.png" alt="cinta métrica">
+                <h3>TAMAÑO PERSONALIZADO</h3>
+                <p>Confeccionaremos las prendas según sus medidas personales hasta los detalles.</p>
+            </div>
+            <div>
+                <img src="RECURSOS\maniqui.png" alt="maniqui de medida">
+                <h3>FÁCIL ALTERACIÓN</h3>
+                <p>Realiza modificaciones a las prendas de acuerdo a sus requisitos personales.</p>
+            </div>
+            <div>
+                <img src="RECURSOS\cliente.png" alt="excelente servicio">
+                <h3>EXCELENTE SERVICIO AL CLIENTE</h3>
+                <p>Puede llamar a nuestra oficinas o enviar un correo electrónico por cualquier pregunta o inquietud</p>
+            </div>
+        </section>
+
+        <section class="secMasVendidos"> <!--Listado de los mas vendidos-->
+            <h1>TRAJES MAS VENDIDOS</h1>
+            <div id="contenedorMasVendido">
+                <div>
+                    <a href=""><img src="RECURSOS\IMAGENES\masvendido1.jpg" alt="masvendido1"></a>
+                    <p>Traje de baño de una pieza con estampado de flores tropicales.</p>
+                </div>
+    
+                <div>
+                    <a href=""><img src="RECURSOS\IMAGENES\masvendido2.jpg" alt="masvendido2"></a>
+                    <p>Traje de baño de una pieza con aberturas entre el pecho y torso.</p>
+                </div>
+    
+                <div>
+                    <a href=""><img src="RECURSOS\IMAGENES\masvendido3.jpg" alt="masvendido3"></a>
+                    <p>Bikini de dos piezas con vuelo en la parte superior, hecho con tela de seda.</p>
+                </div>
+    
+                <div>
+                    <a href=""><img src="RECURSOS\IMAGENES\masvendido4.jpg" alt="masvendido4"></a>
+                    <p>Bikini de dos piezas, parte inferior ajustable al cuerpo, hecho con tela de seda.</p>
+                </div>
+    
+                <div>
+                    <a href=""><img src="RECURSOS\IMAGENES\masvendido5.jpg" alt="masvendido5"></a>
+                    <p>Bikini de dos piezas tela estampada a rayas, con parte inferior ajustable al cuerpo.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer> <!--Pie de pagina con la informacion y contacto del sitio web-->
+
+            <div class="Contacto">
+                <h3>CONTÁCTANOS</h3>
+                <div>
+                    <img src="RECURSOS\telefono.png" alt="telefono">
+                    <p>+505 8888 8888</p>
+                </div>
+                <div>
+                    <img src="RECURSOS\ubicacion.png" alt="ubicación">
+                    <p>Módulo C, Multicentro las Américas, Managua, Nicaragua</p>
+                </div>
+                <div>
+                    <img src="RECURSOS\email.png" alt="correo">
+                    <p>summersun@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+        <script src="JAVASCRIPT/index.js"></script>
+    </body>
+</html>

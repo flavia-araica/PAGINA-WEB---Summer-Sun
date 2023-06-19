@@ -1,0 +1,737 @@
+    * {
+        margin: 0;
+    }
+
+    /********************************************DISEÑO ESCRITORIO*************************************************/
+    @media only screen and (min-width: 950px){ /*DISEÑO ESCRITORIO*/
+    /*-----------------------DISEÑO HEADER------------------------------- */
+    header{
+        background-color: #fcd6d3;
+        position: sticky;
+        width: 100%;
+        overflow: hidden;
+        top: 0;
+        height: 100px;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    #logo{
+        float: left;
+        background-color: #fcd6d3;
+        margin-left: 15px;
+        height: 100px;
+    }
+
+    .social-media {
+        height: 20px;
+        display: inline-block;
+        padding: 3px;
+        margin: 0px 07px;
+    }
+
+    #divSocialMedia {
+        background-image: linear-gradient(60deg, #FCD6D3 180px, #FFFAFA 15px);
+        text-align: right;
+        height: 27px;
+    }
+
+    .navBar, .responsive{
+        background-color: #FCD6D3;
+        border-width: 1px;
+        display: flex;
+        justify-content: flex-end;
+        align-self: center;
+        overflow: hidden;
+    }
+
+    .navBar ul, .responsive ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        align-self: center;
+        margin-top: 12px;
+    }
+
+    .navBar ul li a , .responsive ul li a{
+        display: flex;
+        color: black;
+        padding: 10px; 
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 18px;
+        justify-content: center;
+        align-self: center;
+        margin-right: 20px;
+    }
+
+    .closebtn{
+        display: none;
+    }
+
+    .navBar ul a i, .responsive ul a i{
+        display: none;
+    }
+
+    #active{
+        border-bottom: 3px solid rgb(119, 116, 116);
+    }
+
+    .navBar ul li a:hover:not(.active) {
+        color: grey;
+    }
+
+/*-------------------DISEÑO SECTION DEL BUSCADOR------------------------------- */
+    .secBuscador{
+        width: 100%;
+        background-color: grays;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;   
+        min-height: 90vh; 
+        background-image: url(../RECURSOS/IMAGENES/portada-index1.jpg);
+        background-color: #FCD6D3;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #h1Portada {
+        font-family: "Roboto Slab";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        color: rgba(255, 250, 250, 0.8);
+        margin: 20px 130px;
+    }
+
+    #h2Portada {
+        font-family: "Roboto Slab";
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        text-align: justify;
+        color: #fffafacc;
+        margin: 20px 130px;
+    }
+
+    #inputPortada input[type=text] {
+        width: 60%;
+        margin: 20px 0px 20px 130px;
+        height: 55px;
+        border-radius: 30px;
+        border-width: 0;
+        padding-right: 60px;
+        padding-left: 50px;
+        font-size: 25px;
+        background-color: rgba(255, 255, 255, .65);
+
+    }
+    #inputPortada input[type=image] {
+        margin-left: -60px;
+        height: 27px;
+        vertical-align: text-bottom;
+    }
+
+/**********************DISEÑO SECCION INFO************************/
+
+.secInfo{
+    min-height: 400px;
+    display: flex;
+    text-align: center;
+    margin: 150px 0px;
+}
+
+.infomarca{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1Info{
+    font-family: "Roboto Slab";
+    font-size: 4em;
+    font-style: oblique;
+    font-weight: 300;
+    line-height: 2;
+}
+
+#h1secInfo{
+    margin-right: 30%;
+}
+
+.secInfo .infomarca p {
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    margin: 20px 40px;
+    line-height: 2;
+    font-size: 1.5em;
+}
+
+.imgInfo{
+    width: 40%;
+    text-align: center;
+}
+
+.imgInfo a img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px 05px;
+}
+
+/*---------Seccion de Informacion y caracteristicas de los vestidos--------------*/
+
+.secInfoVestido{
+    background-image: url(../RECURSOS/IMAGENES/portada-informacion.jpg);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+.secInfoVestido div {
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 100px 0px;
+    padding: 0px 50px; 
+}
+
+.secInfoVestido div h3, .secInfoVestido div p{
+    color: white;
+    font-family: "Roboto Slab";
+}
+
+.secInfoVestido div h3{
+    font-weight: 400;
+    font-size: 2em;
+    margin: 20px 0px;
+}
+
+.secInfoVestido div p{
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.secInfoVestido div img {
+    height: 200px;
+    margin: 30px 0px;
+}
+
+/*--------------------------SECCION DE VESTIDOS MAS VENDIDOS-----------------------------------*/
+
+.secMasVendidos{
+    margin: 100px 0px 200px 0px;
+}
+
+.secMasVendidos h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    margin: 80px 0px;
+}
+
+.secMasVendidos #contenedorMasVendido{
+    display: flex;
+    width: 100%;
+}
+
+#contenedorMasVendido{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contenedorMasVendido div{
+    width: 18%;
+    text-align: center;
+}
+
+#contenedorMasVendido div a img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+#contenedorMasVendido div p{
+    width: 80%;
+    margin:  20px auto;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1em;
+    text-align: justify;
+}
+
+/*-------------------------------FOOTER DE LA PAGINA---------------------------------------*/
+
+footer{
+    background-color: #fcd6d3;
+    display: flex;
+    height: 220px;
+    max-height: 300px;
+}
+
+footer > div{
+    margin: 10px auto 0 auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+footer div h3{
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #444444;
+    font-size: 1.5em;
+    border-bottom: 3px solid black;
+}
+
+footer div p, footer div a {
+    font-size: 1em;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-decoration: none;
+    margin: 08px 0px;
+    color: black;
+}
+
+.Contacto div {
+    display: flex;
+}
+
+.Contacto div img{
+    width: 20px;
+    height: 20px;   
+    margin: auto 10px;
+
+}
+
+
+#inputfooter input[type=text]{
+    width: 20vw;
+    height: 30px;
+    padding-left: 30px;
+}
+
+#inputicon{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+
+
+}
+
+
+/********************************************DISEÑO MOVIL*************************************************/
+
+
+@media only screen and (max-width: 949px){
+    /*-----------------------DISEÑO HEADER------------------------------ */
+    
+    header{
+        background-color: #fcd6d3;
+        position: sticky;
+        width: 100%;
+        overflow: hidden;
+        top: 0;
+        height: 80px;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    #logo{
+        float: left;
+        background-color: #fcd6d3;
+        margin-left: 13px;
+        height: 80px;
+        max-height: 80px;
+        min-height: 70px;
+    }
+
+    .social-media {
+        height: 20px;
+        display: inline-block;
+        padding: 3px;
+        margin: 0px 07px;
+    }
+
+    #divSocialMedia {
+        background-image: linear-gradient(60deg, #FCD6D3 170px, #FFFAFA 15px);
+        text-align: right;
+        height: 27px;
+    }
+
+    .navBar ul li{
+        display: none;
+    }
+    
+    .navBar ul a{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Roboto";
+        text-align: center;
+        /*padding: 20px 10px 10px 10px; */
+        color: black;
+        float: right;
+    }
+    #mobileicon{
+        height: 63px;
+        margin-right: 15px;
+    }
+
+    #mobileicon i{
+        margin-top: 50%;
+    }
+    
+
+    .responsive{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.7);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    
+    .responsive ul {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .responsive ul li a{
+        text-decoration: none;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: "Roboto";
+        color: #818181;
+        display: block;
+        transition: 0.5s;
+        margin: 25px 0px;
+    }
+
+    .responsive ul li a:hover{
+        color: white;
+    }
+    .closebtn{
+        display: none;
+        text-decoration: none;
+    }
+    .responsive #mobileicon{
+        display: none;
+    }
+
+    .responsive .closebtn{
+        display: initial;
+        position: absolute;
+        font-size: 50px;
+        color: white;
+        top: 20px;
+        right: 20px;
+    }
+
+    #active{
+        text-decoration: underline white 2px;
+        color: white;
+    }
+
+    .navBar ul li a:hover:not(.active) {
+        color: grey;
+    }
+
+/*-------------------DISEÑO SECTION DEL BUSCADOR------------------------------- */
+    .secBuscador{
+        width: 100%;
+        background-color: gray;
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 85vh; 
+        background-image: url(../RECURSOS/IMAGENES/portada-index1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: #FCD6D3;
+    }
+
+    .secBuscador > div{
+        width: 100%;
+    }
+    #h1Portada {
+        font-family: "Roboto Slab";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        text-align: center;
+        color: rgba(255, 250, 250, 0.8);
+        margin-top: 30%;
+    }
+
+    #h2Portada {
+        font-family: "Roboto Slab";
+        font-style: normal;
+        font-weight: 200;
+        font-size: 1.5em;
+        text-align: center;
+        color: #fffafacc;
+        margin: 20px 10px;
+    }
+
+    #inputPortada{
+        display: block;
+        text-align: center;
+    }
+
+    #inputPortada input[type=text] {
+        width: 70vw;
+        align-self: center;
+        height: 40px;
+        text-align: center;
+        border-radius: 30px;
+        border-width: 0;
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, .65);
+        padding-left: 25px;
+        padding-right: 45px;
+
+    }
+    #inputPortada input[type=image] {
+        position: static;
+        right: 0;
+        margin-left: -45px;
+        height: 27px;
+        font-size: 18px;
+        vertical-align: text-bottom;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+    }
+
+/********************Diseño Sec Buscador***********************/
+.secInfo{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.infomarca{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.h1Info{
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    font-style: oblique;
+    font-weight: 300;
+}
+
+#h1secInfo{
+    margin-right: 25%;
+}
+
+.secInfo .infomarca p {
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.imgInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+.imgInfo a{
+    display: flex;
+    height: 100%;
+}
+
+.imgInfo a img{
+    width: 25vw;
+    height: 50vw;
+    object-fit: cover;
+}
+
+/*******************DISEÑO DE INFORMACION DE VESTIDOS*********************/ 
+.secInfoVestido{
+    background-image: url(../RECURSOS/IMAGENES/portada-informacion.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.secInfoVestido > div{
+    width: 80%;
+    margin: 35px auto;
+}
+
+.secInfoVestido h3{
+    font-size: 2em;
+    margin: 20px auto;
+}
+
+.secInfoVestido p{
+    font-size: 1.3em;
+}
+
+.secInfoVestido p, .secInfoVestido h3{
+    color: white;
+}
+.secInfoVestido img{
+    height: 40vw;
+    width: 40vw;
+}
+
+
+/*****************VESTIDOS MAS VENDIDOS**************/ 
+.secMasVendidos{
+    display: block;
+    width: 100%;
+}
+
+.secMasVendidos h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    margin: 40px 0px;
+}
+
+#contenedorMasVendido > div:last-child{ /*Mostrar solamente El top 4*/
+    display: none;
+}
+
+#contenedorMasVendido{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+
+
+#contenedorMasVendido div{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorMasVendido div a img{
+    width: 35vw;
+    height: 60vw;
+    object-fit: cover;
+}
+
+#contenedorMasVendido div p{
+    width: 35vw;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+
+/***************************************************************/ 
+footer{
+    background-color: #fcd6d3;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer div p, footer div a {
+    font-size: 0.9em;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-decoration: none;
+    margin: 05px 0px;
+    color: black;
+}
+
+/* .Boletin, .Contacto, .CentrodeAyuda{
+    margin-bottom: 0px;
+    text-align: center;
+} */
+/* .Boletin{
+    margin-bottom: 25px;
+} */
+
+/* .Contacto > div, .Boletin > div, .CentrodeAyuda > a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+footer h3{
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #444444;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.Contacto div img{
+    width: 5vw;
+    height: 5vw;  
+    max-width: 25px; 
+    max-height: 25px; 
+    padding: 5px;
+}
+
+#inputfooter input[type=text]{
+    width: 80%;
+    height: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#inputicon{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+
+
+
+
+}
