@@ -295,6 +295,7 @@ footer > div{
     margin: 10px auto 0 auto; 
     display: flex;
     flex-direction:column;
+    align-content: flex-start;
 }
 
 footer div h3{
@@ -335,10 +336,10 @@ footer div p, footer div a {
 }
 
 #inputicon{
-    position: absolute;
+    position:absolute;
     padding: 10px;
-    text-align: left;
     border: none;
+    align-items: start;
 }
 
 
