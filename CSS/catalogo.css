@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+/********************************************DISEÑO ESCRITORIO*************************************************/
+@media only screen and (min-width: 950px){ /*DISEÑO ESCRITORIO*/
+/*-----------------------DISEÑO HEADER------------------------------- */
+header{
+    background-color: #E4C1F9;
+    position: sticky;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    height: 100px;
+}
+
+body{
+    width: 100%;
+    background-color: #EDEDE8;
+}
+
+#logo{
+    float: left;
+    background-color: #E4C1F9;
+    margin-left: 15px;
+    height: 100px;
+}
+
+.social-media {
+    height: 20px;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 07px;
+}
+
+#divSocialMedia {
+    background-color: #A9DEF9;
+    text-align: right;
+    height: 27px;
+}
+
+.navBar, .responsive{
+    background-color: #E4C1F9;
+    border-width: 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    overflow: hidden;
+}
+
+.navBar ul, .responsive ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-self: center;
+    margin-top: 12px;
+}
+
+.navBar ul li a , .responsive ul li a{
+    display: flex;
+    color: orange;
+    padding: 10px; 
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    justify-content: center;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.carrito{
+    height: 20px;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 07px;
+   /*color-scheme:*/ 
+}
+
+.closebtn{
+    display: none;
+}
+
+.navBar ul a i, .responsive ul a i{
+    display: none;
+}
+
+#active{
+    border-bottom: 3px solid rgb(119, 116, 116);
+}
+
+.navBar ul li a:hover:not(.active) {
+    color: grey;
+}
