@@ -294,11 +294,7 @@ footer{
 footer > div{
     margin: 10px auto 0 auto; 
     display: flex;
-    flex-direction:column;
-    left:50px;
-    top:50px;
-    right:80px;
-    
+    flex-direction:column;  
 }
 
 footer div h3{
@@ -307,6 +303,7 @@ footer div h3{
     color: #000000;
     font-size: 1.5em;
     border-bottom: 3px solid black;
+    text-align: left;
 }
 
 footer div p, footer div a {
