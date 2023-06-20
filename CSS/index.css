@@ -57,7 +57,7 @@
 
     .navBar ul li a , .responsive ul li a{
         display: flex;
-        color: black;
+        color: F48C06;
         padding: 10px; 
         text-decoration: none;
         font-family: 'Roboto';
@@ -73,8 +73,8 @@
         display: inline-block;
         padding: 3px;
         margin: 0px 07px;
+        color:F48C06;
     }
-
 
     .closebtn{
         display: none;
@@ -95,7 +95,7 @@
 /*-------------------DISEÑO SECTION DEL BUSCADOR------------------------------- */
     .secBuscador{
         width: 100%;
-        background-color: grays;
+        background-color: white;
         display: flex; 
         flex-direction: column;
         justify-content: center;
