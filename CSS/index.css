@@ -102,7 +102,7 @@
         align-items: flex-start;   
         min-height: 90vh; 
         background-image: url(../RECURSOS/IMAGENES/portada-index1.jpg);
-        background-color: #FCD6D3;
+        background-color: white;
         background-size: cover;
         background-repeat: no-repeat;
     }
