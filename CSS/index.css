@@ -604,7 +604,7 @@ footer div p, footer div a {
 }
 
 /*******************DISEÑO DE INFORMACION DE VESTIDOS*********************/ 
-.secInfoVestido{
+.secInfoTraje{
     background-image: url(../RECURSOS/IMAGENES/portada-informacion.jpg);
     background-size: cover;
     display: flex;
@@ -614,17 +614,17 @@ footer div p, footer div a {
     width: 100%;
 }
 
-.secInfoVestido > div{
+.secInfoTraje > div{
     width: 80%;
     margin: 35px auto;
 }
 
-.secInfoVestido h3{
+.secInfoTraje h3{
     font-size: 2em;
     margin: 20px auto;
 }
 
-.secInfoVestido p{
+.secInfoTraje p{
     font-size: 1.3em;
 }
 
