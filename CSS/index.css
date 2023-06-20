@@ -318,6 +318,7 @@ footer div p, footer div a {
     display: flex;
     text-align: left;
     padding-top: 10px;
+    border-top: 10px;
 }
 
 .Contacto div img{
