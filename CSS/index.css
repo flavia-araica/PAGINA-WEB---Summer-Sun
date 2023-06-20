@@ -294,8 +294,7 @@ footer{
 footer > div{
     margin: 10px auto 0 auto; 
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    flex-direction:column;
 }
 
 footer div h3{
@@ -317,12 +316,14 @@ footer div p, footer div a {
 
 .Contacto div {
     display: flex;
+    text-align: left;
 }
 
 .Contacto div img{
     width: 20px;
     height: 20px;   
     margin: auto 10px;
+    align-items:start;
 
 }
 
