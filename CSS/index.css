@@ -73,7 +73,7 @@
         display: inline-block;
         padding: 3px;
         margin: 0px 07px;
-       color: orange;
+       background-color: orange;
     }
 
     .closebtn{
@@ -144,7 +144,7 @@
         margin-left: -60px;
         height: 27px;
         vertical-align: text-bottom;
-        color: white;
+        background-color: white;
     }
 
 /**********************DISEÑO SECCION INFO************************/
