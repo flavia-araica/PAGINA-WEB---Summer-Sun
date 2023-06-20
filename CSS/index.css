@@ -33,7 +33,8 @@
     }
 
     #divSocialMedia {
-        background-image: linear-gradient(60deg, #FCD6D3 180px, #FFFAFA 15px);
+        background-color: 000000;
+       /* background-image: linear-gradient(60deg, #FCD6D3 180px, #FFFAFA 15px);*/
         text-align: right;
         height: 27px;
     }
