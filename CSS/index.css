@@ -6,7 +6,7 @@
     @media only screen and (min-width: 950px){ /*DISEÑO ESCRITORIO*/
     /*-----------------------DISEÑO HEADER------------------------------- */
     header{
-        background-color: #fcd6d3;
+        background-color: #E4C1F9;
         position: sticky;
         width: 100%;
         overflow: hidden;
@@ -20,7 +20,7 @@
 
     #logo{
         float: left;
-        background-color: #fcd6d3;
+        background-color: #E4C1F9;
         margin-left: 15px;
         height: 100px;
     }
@@ -34,13 +34,12 @@
 
     #divSocialMedia {
         background-color: 000000;
-       /* background-image: linear-gradient(60deg, #FCD6D3 180px, #FFFAFA 15px);*/
         text-align: right;
         height: 27px;
     }
 
     .navBar, .responsive{
-        background-color: #FCD6D3;
+        background-color: #E4C1F9;
         border-width: 1px;
         display: flex;
         justify-content: flex-end;
