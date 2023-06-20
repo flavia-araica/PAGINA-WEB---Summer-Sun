@@ -42,4 +42,51 @@
             <h1>TRAJES DE VERANO</h1>
         </div>
     </section>
+
+    <div id="body">
+        <aside id="asi"> <!--Barra Lateral que contiene opciones de los detalles de productos-->
+            <h3>REFINAR POR:</h2>
+                <a href="#" class="cerrarFiltro" onclick="cerrarFiltro()">&times;</a>
+                <hr>
+                <div class="asiClasificacion">
+                    <h2>Clasificación</h2>
+                    <div class="opClasificacion">
+                        <form>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Recomendados</label>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Novedades</label>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Menor a Mayor Precio</label>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Mayor a Menor Precio</label>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Mejor Evaluados</label>
+                        </form>
+                        
+                    </div>
+                </div>
+
+                <div class="asiCategoria">
+                    <h2>Categoría</h2>
+                    <div class="opCategoria">
+                        <form>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Bikini</label>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Trikini</label>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Tiro Alto</label>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Tankini</label>
+                            <label><input type="checkbox" name="check" onclick="onlyOne(this)"> Entero</label>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="asiPrecio">
+                    <h2>Precio</h2>
+                    <form>                
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)"> $10 - $15</label>
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)"> $15 - $20</label>
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)"> $20 - $25</label>
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)"> $25 - $30</label>
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)"> $35 o más</label>
+                    </form>  
+                </div> 
+
+        </aside>
+
+    </div>
 </body>
