@@ -73,7 +73,7 @@
         display: inline-block;
         padding: 3px;
         margin: 0px 07px;
-        background-color:orange;
+       color: orange;
     }
 
     .closebtn{
@@ -102,7 +102,6 @@
         align-items: flex-start;   
         min-height: 90vh; 
         background-image: url(../RECURSOS/IMAGENES/portada-index1.jpg);
-        background-image: white;
         background-color: white;
         background-size: cover;
         background-repeat: no-repeat;
@@ -145,6 +144,7 @@
         margin-left: -60px;
         height: 27px;
         vertical-align: text-bottom;
+        color: white;
     }
 
 /**********************DISEÑO SECCION INFO************************/
