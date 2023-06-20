@@ -57,7 +57,7 @@
 
     .navBar ul li a , .responsive ul li a{
         display: flex;
-        color: F48C06;
+        color: yellow;
         padding: 10px; 
         text-decoration: none;
         font-family: 'Roboto';
@@ -73,7 +73,7 @@
         display: inline-block;
         padding: 3px;
         margin: 0px 07px;
-        color:F48C06;
+        color:yellow;
     }
 
     .closebtn{
