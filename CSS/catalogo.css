@@ -262,3 +262,30 @@ aside h2, aside h4{
     font-weight: 400;
     margin: 10px 0px;
 }
+
+    
+#prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#prices > label{
+    padding: 0px 10px;
+}
+
+#prices > label:first-child{
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    color: rgb(54, 39, 39);
+}
+
+#prices > label:nth-child(2){
+    font-weight: lighter;
+    color: gray;
+    font-family: 'Roboto';
+    font-size: 0.9em;
+    text-decoration: line-through;
+}
