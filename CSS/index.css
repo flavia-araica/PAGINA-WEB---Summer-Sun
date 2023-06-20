@@ -136,7 +136,7 @@
         border-radius: 30px;
         border-width: 0;
         padding-right: 60px;
-        border-radius: 20px;
+        border-image-slice: 20px;
         padding-left: 50px;
         font-size: 25px;
         background-color: rgba(255, 255, 255, .65);
