@@ -48,8 +48,7 @@
     }
 
     .navBar ul, .responsive ul{
-       /* display: flex;*/
-        display: inline-block;
+        display: flex;
         list-style-type: none;
         justify-content: center;
         align-self: center;
@@ -57,9 +56,9 @@
     }
 
     .navBar ul li a , .responsive ul li a{
-        /*display: flex;*/
-        display: inline-block;
+        display: flex;
         color: black;
+        height: 20px;
         padding: 10px; 
         text-decoration: none;
         font-family: 'Roboto';
