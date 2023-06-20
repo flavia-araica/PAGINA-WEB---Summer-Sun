@@ -58,7 +58,6 @@
     .navBar ul li a , .responsive ul li a{
         display: flex;
         color: black;
-        height: 20px;
         padding: 10px; 
         text-decoration: none;
         font-family: 'Roboto';
@@ -68,6 +67,14 @@
         align-self: center;
         margin-right: 20px;
     }
+
+    .carrito{
+        height: 20px;
+        display: inline-block;
+        padding: 3px;
+        margin: 0px 07px;
+    }
+
 
     .closebtn{
         display: none;
