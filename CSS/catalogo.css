@@ -93,3 +93,79 @@ body{
     color: grey;
 }
 }
+
+#portada{
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 35px;
+    height: 120px;
+    background-image: url(../RECURSOS/IMAGENES/Portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body{
+    display: grid;
+    grid-template-columns: 25% auto;
+    margin: 30px 0; 
+}
+
+#portada h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 3px white;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    grid-column: 0;
+    margin: 0px 35px;
+}
+
+aside > div{
+    margin: 15px 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form > label, aside h2, aside h3, aside h4{
+    font-family: "Roboto";
+    font-weight: normal;
+    line-height: 1.7;
+}
+form > label{
+    font-size: 1em;
+}
+
+aside h3{
+    font-size: 1.5em;
+}
+
+aside h2, aside h4{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#borrarseleccion{
+    display: flex;
+    flex-direction: column;
+}
+
+#borrarseleccion > label {
+    font-size: 1em;
+    font-family: 'Roboto';
+
+}
+
+.cerrarFiltro{
+    display: none;
+}
