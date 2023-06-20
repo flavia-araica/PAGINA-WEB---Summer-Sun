@@ -146,7 +146,6 @@
         height: 27px;
         vertical-align: text-bottom;
         color: white;
-        appearance: 50%;
     }
 
 /**********************DISEÑO SECCION INFO************************/
@@ -318,6 +317,7 @@ footer div p, footer div a {
 .Contacto div {
     display: flex;
     text-align: left;
+    padding-top: 10px;
 }
 
 .Contacto div img{
