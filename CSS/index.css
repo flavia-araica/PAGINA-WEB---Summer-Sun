@@ -134,7 +134,7 @@
         margin: 20px 0px 20px 130px;
         height: 55px;
         border-radius: 30px;
-        border-width: 0;
+        border-width: 20,20,20,20;
         padding-right: 60px;
         padding-left: 50px;
         font-size: 25px;
