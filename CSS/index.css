@@ -237,7 +237,7 @@
     margin: 30px 0px;
 }
 
-/*--------------------------SECCION DE VESTIDOS MAS VENDIDOS-----------------------------------*/
+/*--------------------------SECCION  MAS VENDIDOS-----------------------------------*/
 
 .secMasVendidos{
     margin: 100px 0px 200px 0px;
@@ -285,7 +285,7 @@
 /*-------------------------------FOOTER DE LA PAGINA---------------------------------------*/
 
 footer{
-    background-color: #fcd6d3;
+    background-color: #E4C1F9;
     display: flex;
     height: 220px;
     max-height: 300px;
@@ -300,7 +300,7 @@ footer > div{
 footer div h3{
     font-family: "Roboto";
     font-weight: 700;
-    color: #444444;
+    color: #000000;
     font-size: 1.5em;
     border-bottom: 3px solid black;
 }
