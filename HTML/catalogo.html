@@ -45,7 +45,7 @@
 
     <div id="body">
         <aside id="asi"> <!--Barra Lateral que contiene opciones de los detalles de productos-->
-            <h3>REFINAR POR:</h2>
+            <h3>FILTROS:</h2>
                 <a href="#" class="cerrarFiltro" onclick="cerrarFiltro()">&times;</a>
                 <hr>
                 <div class="asiClasificacion">
@@ -87,6 +87,43 @@
                 </div> 
 
         </aside>
+
+        <section class="secCatalogo"> <!--Catalogo del productos-->
+            <div id="opcVisCatalogo">
+                <div>
+                    <span>Productos:</span>
+                    <span>30 Trajes de baño encontrados</span>
+                </div>
+                
+                <div>
+                    <span>Ordenar por: </span>
+                    <select id="selOrdenar">
+                        <option value="*" disabled selected>Selecciona uno</option>
+                        <option value="Nombre">Nombre</option>
+                        <option value="Estilo">Estilo</option>
+                        <option value="otro2">Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <span>Filtro:</span>
+                    <a class="filtro" id="filtroMobile" onclick="mostrarFiltro()"><img src="../RECURSOS/filter-solid.svg"></a>
+                </div>
+            </div>
+
+            <div class="visCatalogo">
+                <div class="cardProductos">
+                    <img src="../RECURSOS/IMAGENES/Trajeb1.jpg">
+                    <h1>Bikini de dos piezas <br> parte inferior ajustable al cuerpo, hecho con tela de seda...</h1>
+                    <div id="prices">
+                        <label class="price">$ 30.00</label>
+                        <label class="beforeprice">$ 36.00</label>
+                    </div>
+                    <a href="../HTML/PRODUCTO/Producto.html">Ver más >></a>
+                </div>
+
+            </div>
+
+        </section>
 
     </div>
 </body>
