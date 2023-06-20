@@ -291,8 +291,7 @@ footer{
     max-height: 300px;
 }
 
-footer > div{
-    margin: 10px auto 0 auto; 
+footer > div{ 
     display: flex;
     flex-direction:column;  
 }
@@ -303,7 +302,6 @@ footer div h3{
     color: #000000;
     font-size: 1.5em;
     border-bottom: 3px solid black;
-    text-align: left;
 }
 
 footer div p, footer div a {
