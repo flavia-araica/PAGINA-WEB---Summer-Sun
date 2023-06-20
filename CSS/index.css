@@ -48,7 +48,8 @@
     }
 
     .navBar ul, .responsive ul{
-        display: flex;
+       /* display: flex;*/
+        display: inline-block;
         list-style-type: none;
         justify-content: center;
         align-self: center;
