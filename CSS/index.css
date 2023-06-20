@@ -17,7 +17,6 @@
     body{
         width: 100%;
         background-color: #EDEDE8;
-
     }
 
     #logo{
@@ -75,7 +74,7 @@
         display: inline-block;
         padding: 3px;
         margin: 0px 07px;
-       color: orange;
+       color-scheme: ;
     }
 
     .closebtn{
@@ -147,6 +146,7 @@
         height: 27px;
         vertical-align: text-bottom;
         color: white;
+        appearance: 50%;
     }
 
 /**********************DISEÑO SECCION INFO************************/
