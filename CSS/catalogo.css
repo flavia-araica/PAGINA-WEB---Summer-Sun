@@ -313,7 +313,7 @@ aside h2, aside h4{
         margin: auto;
         text-align: center;
     }
-    .navbarCatalogo > button:first-child, .navbarCatalogo > button:last-child{
+    .navbarCatalogo > button:first-child > i, .navbarCatalogo > button:last-child{
         font-size: 1em;
         font-family: 'Roboto';
         font-weight: 300;
@@ -341,9 +341,7 @@ aside h2, aside h4{
         width: 40px;
     }
 
-    .fa, .far, .fas {
-        font-family: "Font Awesome 5 Free";
-    }
+
 /*-------------------------------FOOTER DE LA PAGINA---------------------------------------*/
 
 footer{
