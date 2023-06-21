@@ -401,3 +401,10 @@ footer div p, footer div a {
     border: none;
     align-items: start;
 }
+
+
+/* *******************************************DISEÑO MOVIL*********************************************** */
+@media only screen and (max-width: 849px){
+
+    
+}
