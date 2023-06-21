@@ -604,7 +604,7 @@ footer div p, footer div a {
     object-fit: cover;
 }
 
-/*******************DISEÑO DE INFORMACION DE VESTIDOS*********************/ 
+/*******************DISEÑO DE INFORMACION DE TRAJES*********************/ 
 .secInfoTraje{
     background-image: url(../RECURSOS/IMAGENES/portada-informacion.jpg);
     background-size: cover;
@@ -704,21 +704,6 @@ footer div p, footer div a {
     margin: 05px 0px;
     color: black;
 }
-
-/* .Boletin, .Contacto, .CentrodeAyuda{
-    margin-bottom: 0px;
-    text-align: center;
-} */
-/* .Boletin{
-    margin-bottom: 25px;
-} */
-
-/* .Contacto > div, .Boletin > div, .CentrodeAyuda > a {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 footer h3{
     font-family: "Roboto";
