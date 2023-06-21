@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang = "es-ES">
+    <head>
+        <meta charset="utf-8"> 
+        <title>Oferta - Summer Sun</title>
+        <meta name="description" content="Encuentra las mejores ofertas para tu Traje de Verano">
+        <link rel="stylesheet" href="../CSS/oferta.css">
+    </head>
+    
+    <body>
+        <header id="header"> <!--logo, iconos, Menu de navegacion del sitio web-->
+
+            <div id="divSocialMedia">
+                <a href=""><img id="logo" src="RECURSOS/logo.png" alt="Logo"></a>
+                <a href="https://es-la.facebook.com/"><img class="social-media"     src="../RECURSOS/facebook-f.svg" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img class="social-media"      src="../RECURSOS/instagram.svg" alt="Instagram"></a>
+                <a href="https://twitter.com/?lang=es"><img class="social-media"    src="../RECURSOS/twitter.svg" alt="Twitter"></a>
+                <a href="https://www.pinterest.com/"><img class="social-media"      src="../RECURSOS/pinterest-p.svg" alt="Pinterest"></a>
+                <a href=""><img class="social-media" src="../RECURSOS/user-regular.svg" alt="usuarioLogin"></a>
+            </div>
+
+            <nav class="navBar" id="navBar">
+
+                <a href="#" class="closebtn" onclick="myFunction()">&times;</a>
+                <ul>
+                    <a class="icon" id="mobileicon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="../HTML/catalogo.html">CATÁLOGO</a></li>
+                    <li><a href="../HTML/accesorios.html">ACCESORIOS</a></li>
+                    <li><a id="active"  href="HTML/oferta.html">OFERTAS</a></li>
+                    <li><a href="../HTML/nosotros.html">NOSOTROS</a></li>
+                    <li><a  href=""><img class="carrito" src="../RECURSOS/cart-shopping-solid.svg" alt="Carrito"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section> <!--Contiene las opciones de presentacion que serán aplicadas sobre la vista del catálogo-->
+            <div id="portada"> 
+                <h1>OFERTAS</h1>
+            </div>
+        </section>
+
+        <div id="body">    
+            <aside>
+                <div class="asiPrecio">
+                    <h2>ACCESORIOS  </h2>
+                    <form>                         
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)" checked > SOMBRERO </label>
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)"> BOLSO DE PLAYA </label>
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)"> SANDALIAS </label>
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)"> GAFAS DE SOL </label>
+                        <label><input type="checkbox" name="check" onclick="onlyOne(this)"> SALIDA DE BAÑO </label>
+                    </form>  
+                </div>
+            </aside>
+
+            <section class="secCatalogo"> <!--Catalogo del productos-->
+                <div class="visCatalogo">
+                    <div class="cardProductos">
+                        <div class="badge">50% <br>OFF</div>
+                        <img src="../RECURSOS/IMAGENES/Producto8.jpg">
+                        <h1> Bolso y Gafas de sol...</h1>
+                        <div id="prices">
+                            <label class="price">$ 12.05</label>
+                            <label class="beforeprice">$ 25.00</label>
+                        </div>
+                        <a href="#">Ver más >></a>
+                    </div>
+
+                    <div class="cardProductos">
+                        <div class="badge">50% <br>OFF</div>
+                        <img src="../RECURSOS/IMAGENES/Producto10.jpg">
+                        <h1> Salida de Baño...</h1>
+                        <div id="prices">
+                            <label class="price">$ 12.05</label>
+                            <label class="beforeprice">$ 25.00</label>
+                        </div>
+                        <a href="#">Ver más >></a>
+                    </div>
+
+                    <div class="cardProductos">
+                        <div class="badge">50% <br>OFF</div>
+                        <img src="../RECURSOS/IMAGENES/Producto5.jpg">
+                        <h1> Sandalias de baño...</h1>
+                        <div id="prices">
+                            <label class="price">$ 5.00</label>
+                            <label class="beforeprice">$ 10.00</label>
+                        </div>
+                        <a href="#">Ver más >></a>
+                    </div>
+
+                    <div class="cardProductos">
+                        <div class="badge">50% <br>OFF</div>
+                        <img src="../RECURSOS/IMAGENES/Producto13.jpg">
+                        <h1> Salida de baño...</h1>
+                        <div id="prices">
+                            <label class="price">$ 12.05</label>
+                            <label class="beforeprice">$ 25.00</label>
+                        </div>
+                        <a href="#">Ver más >></a>
+                    </div>
+
+                    <div class="cardProductos">
+                        <div class="badge">50% <br>OFF</div>
+                        <img src="../RECURSOS/IMAGENES/Producto9.jpg">
+                        <h1> Gafas de Sol...</h1>
+                        <div id="prices">
+                            <label class="price">$ 5.00</label>
+                            <label class="beforeprice">$ 10.00</label>
+                        </div>
+                        <a href="#">Ver más >></a>
+                    </div>
+
+                    <div class="cardProductos">
+                        <div class="badge">50% <br>OFF</div>
+                        <img src="../RECURSOS/IMAGENES/Producto15.jpg">
+                        <h1> Sandalias de baño...</h1>
+                        <div id="prices">
+                            <label class="price">$ 7.05</label>
+                            <label class="beforeprice">$ 15.00</label>
+                        </div>
+                        <a href="#">Ver más >></a>
+                    </div>
+                </div>
+            </section>
+
+
+    </body>
