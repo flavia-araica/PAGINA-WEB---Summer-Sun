@@ -199,11 +199,11 @@ body{
 }
 
 #colorProducto > .colores:nth-child(2){
-    background-color: gray;
+    background-color:beige;
 }
 
 #colorProducto > .colores:last-child{
-    background-color: blueviolet;
+    background-color: papayawhip;
 }
 
 #descProducto > h3{
