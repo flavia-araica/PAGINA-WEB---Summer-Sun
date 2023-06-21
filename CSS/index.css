@@ -355,7 +355,7 @@ footer div p, footer div a {
 /********************************************DISEÑO MOVIL*************************************************/
 
 
-@media only screen and (max-width: 949px){
+@media only screen and (max-width: 849px){
     /*-----------------------DISEÑO HEADER------------------------------ */
     
     header{
@@ -406,6 +406,15 @@ footer div p, footer div a {
         color: black;
         float: right;
     }
+
+    .carrito{
+        height: 20px;
+        display: inline-block;
+        padding: 3px;
+        margin: 0px 07px;
+       /*color-scheme:*/ 
+    }
+
     #mobileicon{
         height: 63px;
         margin-right: 15px;
@@ -638,7 +647,7 @@ footer div p, footer div a {
 }
 
 
-/*****************VESTIDOS MAS VENDIDOS**************/ 
+/*****************TRAJES MAS VENDIDOS**************/ 
 .secMasVendidos{
     display: block;
     width: 100%;
@@ -705,6 +714,18 @@ footer div p, footer div a {
     color: black;
 }
 
+.Contacto{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.Contacto > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer h3{
     font-family: "Roboto";
     font-weight: 700;
@@ -714,7 +735,7 @@ footer h3{
     margin-bottom: 10px;
 }
 
-.Contacto div img{
+.Contacto div img{ /*CAMBIO PADDING*/
     width: 5vw;
     height: 5vw;  
     max-width: 25px; 
