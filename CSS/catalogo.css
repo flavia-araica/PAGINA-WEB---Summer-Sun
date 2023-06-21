@@ -821,6 +821,17 @@ footer div p, footer div a {
     
 }
 
+.Contacto{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.Contacto > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 footer h3{
     font-family: "Roboto";
@@ -837,8 +848,6 @@ footer h3{
     max-width: 25px; 
     max-height: 25px; 
     padding: 5px;
-    position: relative;
-    left: 150px;
 }
 
 #inputfooter input[type=text]{
