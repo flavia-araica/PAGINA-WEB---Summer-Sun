@@ -818,6 +818,8 @@ footer div p, footer div a {
     text-decoration: none;
     margin: 05px 0px;
     color: black;
+    position: relative;
+    left: 20px;
 }
 
 
