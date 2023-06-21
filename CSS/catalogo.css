@@ -331,7 +331,7 @@ aside h2, aside h4{
     }
     
     .navbarCatalogo > button:not(:last-child):not(:first-child){
-        color:#A9DEF9 ;
+        color:black ;
         font-family: 'Roboto';
         font-size: 1em;
         font-weight: 400;
