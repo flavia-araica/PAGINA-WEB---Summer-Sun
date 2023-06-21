@@ -94,4 +94,244 @@ body{
     color: grey;
 }
 
+/*******************PORTADA**********************************/
+
+#portada{
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 35px;
+    height: 120px;
+    background-image: url(../RECURSOS/IMAGENES/Portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portada h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 3px white;
+}
+
+/**********************CATALOGO*******************************/
+
+#opcVisCatalogo{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin: 20px 55px;
+}
+
+#opcVisCatalogo > div{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+#opcVisCatalogo div > h2{
+    font-family: 'Roboto';
+}
+
+#opcVisCatalogo div h2:nth-child(2){
+    font-weight: 300;
+    margin-left: 15px;
+    font-size: 0.9em
+}
+#opcVisCatalogo div select{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-left: 15px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    background-color: #E6E6E6;
+    border-radius: 7px;
+    border: 0px solid;
+}
+
+#opcVisCatalogo div span{
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.visCatalogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+}
+.cardProductos{
+    flex-grow: 1;
+    margin: 10px 25px;
+    width: 250px;
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgba(128, 128, 128, 0.171) 1px solid;
+    background-color: rgb(230, 230, 230, 0.3);
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.459);
+}
+
+.cardProductos > img{
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.cardProductos > h1{
+    text-align: left;
+    padding: 0px 10px;
+    font-family: 'Roboto';
+    font-size: 1em;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+#prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#prices > label{
+    padding: 0px 10px;
+}
+
+#prices > label:first-child{
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    color: rgb(54, 39, 39);
+}
+
+#prices > label:nth-child(2){
+    font-weight: lighter;
+    color: gray;
+    font-family: 'Roboto';
+    font-size: 0.9em;
+    text-decoration: line-through;
+}
+
+.cardProductos >  img{
+    object-fit: cover;
+}
+
+.cardProductos > a{
+    color: black;
+    text-align: left;
+    margin: 10px 0px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+/*****************************************************/
+.navbarCatalogo{
+    margin: auto;
+    text-align: center;
+}
+.navbarCatalogo > button:first-child, .navbarCatalogo > button:last-child{
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: white;
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.navbarCatalogo > button:first-child > i, .navbarCatalogo > button:last-child > i{
+    margin: 0px 10px;
+}
+
+.navbarCatalogo > button:not(:last-child):not(:first-child){
+    color: black;
+    font-family: 'Roboto';
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+/********************FOOTER*********************************/
+footer{
+    background-color: #E4C1F9;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer div p, footer div a {
+    font-size: 0.9em;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-decoration: none;
+    margin: 05px 0px;
+    color: black;
+    
+}
+
+.Contacto{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.Contacto > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3{
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #444444;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.Contacto div img{
+    width: 5vw;
+    height: 5vw;  
+    max-width: 25px; 
+    max-height: 25px; 
+    padding: 5px;
+}
+
+#inputfooter input[type=text]{
+    width: 80%;
+    height: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#inputicon{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+
 }
