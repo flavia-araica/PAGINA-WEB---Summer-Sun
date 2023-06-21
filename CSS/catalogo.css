@@ -818,8 +818,7 @@ footer div p, footer div a {
     text-decoration: none;
     margin: 05px 0px;
     color: black;
-    position: relative;
-    left: 100px;
+    
 }
 
 
@@ -838,6 +837,8 @@ footer h3{
     max-width: 25px; 
     max-height: 25px; 
     padding: 5px;
+    position: relative;
+    left: 150px;
 }
 
 #inputfooter input[type=text]{
