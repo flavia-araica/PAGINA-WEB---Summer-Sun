@@ -359,7 +359,7 @@ footer div p, footer div a {
     /*-----------------------DISEÑO HEADER------------------------------ */
     
     header{
-        background-color: #fcd6d3;
+        background-color: #E4C1F9;
         position: sticky;
         width: 100%;
         overflow: hidden;
@@ -373,7 +373,7 @@ footer div p, footer div a {
 
     #logo{
         float: left;
-        background-color: #fcd6d3;
+        background-color: #E4C1F9;
         margin-left: 13px;
         height: 80px;
         max-height: 80px;
@@ -388,7 +388,7 @@ footer div p, footer div a {
     }
 
     #divSocialMedia {
-        background-image: linear-gradient(60deg, #FCD6D3 170px, #FFFAFA 15px);
+        background-image: linear-gradient(60deg, #A9DEF9 170px, #A9DEF9 15px);
         text-align: right;
         height: 27px;
     }
@@ -690,7 +690,7 @@ footer div p, footer div a {
 
 /***************************************************************/ 
 footer{
-    background-color: #fcd6d3;
+    background-color: #E4C1F9;
     display: flex;
     flex-direction: column;
 
