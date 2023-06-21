@@ -328,6 +328,7 @@ aside h2, aside h4{
     
     .navbarCatalogo > button:first-child > i, .navbarCatalogo > button:last-child > i{
         margin: 0px 10px;
+        color: white;
     }
     
     .navbarCatalogo > button:not(:last-child):not(:first-child){
