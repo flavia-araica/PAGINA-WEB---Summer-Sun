@@ -403,7 +403,7 @@ footer div p, footer div a {
         font-weight: bold;
         font-family: "Roboto";
         text-align: center;
-        /*padding: 20px 10px 10px 10px; */
+        padding: 20px 10px 10px 10px; /*Modif*/
         color: black;
         float: right;
     }
