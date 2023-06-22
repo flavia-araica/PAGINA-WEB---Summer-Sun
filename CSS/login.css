@@ -163,7 +163,7 @@ body{
     .form-body input:hover{
         transition: 5s;
         border: 1px solid #F48C06;
-        color: #E4C1F9;
+        color: white;
     }
     
     .form-body button{
