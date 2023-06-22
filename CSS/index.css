@@ -355,7 +355,7 @@ footer div p, footer div a {
 /********************************************DISEÑO MOVIL*************************************************/
 
 
-@media only screen and (max-width: 849px){
+@media only screen and (max-width: 949px){
     /*-----------------------DISEÑO HEADER------------------------------ */
     
     header{
@@ -377,6 +377,8 @@ footer div p, footer div a {
         background-color: #E4C1F9;
         margin-left: 15px;
         height: 100px;
+        max-height: 80px; /*OJO*/
+        min-height: 70px;
     }
     
     .social-media {
