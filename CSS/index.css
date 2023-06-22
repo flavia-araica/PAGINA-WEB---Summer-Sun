@@ -355,7 +355,7 @@ footer div p, footer div a {
 /********************************************DISEÑO MOVIL*************************************************/
 
 
-@media only screen and (max-width: 849px){
+@media only screen and (max-width: 949px){
     /*-----------------------DISEÑO HEADER------------------------------ */
     
     header{
@@ -377,6 +377,8 @@ footer div p, footer div a {
         background-color: #E4C1F9;
         margin-left: 15px;
         height: 100px;
+        max-height: 80px; /*OJO*/
+        min-height: 70px;
     }
     
     .social-media {
@@ -401,7 +403,7 @@ footer div p, footer div a {
         font-weight: bold;
         font-family: "Roboto";
         text-align: center;
-        /*padding: 20px 10px 10px 10px; */
+        padding: 50px 10px 10px 10px; /*Modif*/
         color: black;
         float: right;
     }
@@ -410,8 +412,9 @@ footer div p, footer div a {
         display: inline-block;
         padding: 3px;
         margin: 0px 07px;
-       /*color-scheme:*/ 
+       /*color-scheme: */
     }
+
     #mobileicon{
         height: 63px;
         margin-right: 15px;
