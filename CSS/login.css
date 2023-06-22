@@ -10,7 +10,7 @@ body{
     justify-content:center;
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(27deg, #34495e 50%, #2c3c50 50%);
+    background: linear-gradient(27deg, #E4C1F9 50%, #A9DEF9 50%);
 
 }
 
@@ -20,7 +20,7 @@ body{
     border-radius: 10px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border: solid 1px #2988b9;
+    border: solid 1px #F48C06;
     margin: 10px;
 
 }
@@ -28,7 +28,7 @@ body{
 .form-body img{
     width: 150px;
     display: block;
-    margin: 20x auto;
+    margin: 20px auto;
 }
 
 .text{
@@ -68,7 +68,7 @@ body{
 .form-body input:hover{
     transition: 5s;
     border: 1px solid #2988b9;
-    color: #2498bd;
+    color: #E4C1F9;
 }
 
 .form-body button{
