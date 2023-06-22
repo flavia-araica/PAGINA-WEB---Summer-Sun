@@ -10,7 +10,8 @@ body{
     justify-content:center;
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(27deg,  #A9DEF9 50%, #E4C1F9 50%);
+    background: linear-gradient(27deg,  #943876 50%, #293894 50%);
+    /*background: linear-gradient(27deg,  #A9DEF9 50%, #E4C1F9 50%);*/
 
 }
 
@@ -91,7 +92,7 @@ body{
 .form-body button:hover{
     color: aliceblue;
     border: 2px solid #F48C06;
-    background: linear-gradient(#E4C1F9, #A9DEF9);
+    background: linear-gradient(#C787B2, #1C3AED);
 }
 
 
@@ -105,7 +106,7 @@ body{
         justify-content:center;
         height: 100vh;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background: linear-gradient(27deg,  #A9DEF9 50%, #E4C1F9 50%);
+        background: linear-gradient(27deg,  #943876 50%, #293894 50%);
     
     }
     
